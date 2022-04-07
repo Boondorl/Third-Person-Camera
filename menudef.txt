@@ -1,0 +1,15 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "Camera Options", "CamOptions"
+}
+
+OptionMenu "CamOptions"
+{
+	Title "Camera Options"
+	
+	Control "Toggle Camera", "netevent ToggleCamera"
+	StaticText ""
+	
+	Slider "Distance", "tp_camdistance", 0, 128, 1
+	Slider "Height", "tp_camheight", -32, 32, 1
+}

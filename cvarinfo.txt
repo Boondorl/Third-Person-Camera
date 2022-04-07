@@ -1,0 +1,2 @@
+user float tp_camdistance = 96;
+user float tp_camheight = 24;
